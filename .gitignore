@@ -1,0 +1,20 @@
+# IDE specific
+.idea
+
+# Logs
+npm-debug.log*
+
+# Dependencies
+node_modules
+
+# Coverage
+coverage
+
+# Cache
+.nyc_output
+.tmp
+
+# Release
+lib
+
+
