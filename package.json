@@ -1,37 +1,26 @@
 {
-  "name": "npm-package-es6-boilerplate",
-  "version": "1.0.4",
-  "description": "Boilerplate for creating npm packages with ES6. Features: webpack2, babel, mocha, chai, sinon, istanbul, eslint, CI with travis-ci.org, coverage reports with coveralls.io",
+  "name": "excel-cell-parser",
+  "version": "1.0.0",
+  "description": "Convert Excel cell name string to object of format { column: 'number', row: 'number' } and back",
   "keywords": [
-    "npm-package",
-    "package",
-    "boilerplate",
-    "es6",
-    "es2015",
-    "babel",
-    "webpack",
-    "webpack2",
-    "mocha",
-    "chai",
-    "sinon",
-    "istanbul",
-    "eslint",
-    "travis",
-    "travis-ci",
-    "travis.ci.org",
-    "coveralls",
-    "coveralls.io"
+    "excel",
+    "cell",
+    "cellname",
+    "covert",
+    "converter",
+    "parse",
+    "parser"
   ],
   "license": "MIT",
   "author": "Eugene Nikitin",
-  "homepage": "http://github.com/eunikitin/npm-package-es6-boilerplate.git",
+  "homepage": "http://github.com/eunikitin/excel-cell-parser.git",
   "repository": {
     "type": "git",
-    "url": "http://github.com/eunikitin/npm-package-es6-boilerplate.git"
+    "url": "http://github.com/eunikitin/excel-cell-parser.git"
   },
   "bugs": {
     "mail": "eu.nikitin@gmail.com",
-    "url": "http://github.com/eunikitin/npm-package-es6-boilerplate/issues"
+    "url": "http://github.com/eunikitin/excel-cell-parser/issues"
   },
   "main": "lib/index.min.js",
   "scripts": {
