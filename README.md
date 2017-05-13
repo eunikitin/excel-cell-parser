@@ -17,6 +17,9 @@ and back
 ```$ npm install --save excel-cell-parser```
 
 ## Usage
-To be done
-
-
+```js
+var parseCell = require('excel-cell-parser');
+ 
+parseCell({ column: 3, row: 2 }); // C2
+parseCell('D3') // { column: 4, row: 3 }
+```
