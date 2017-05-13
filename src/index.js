@@ -5,7 +5,7 @@ function getFirstDigitPosition(string) {
   return string.search(/\d/);
 }
 
-export default function parseCell(cell) {
+module.exports = function parseCell(cell) {
   switch (typeof cell) {
     case 'string':
       return {
@@ -17,4 +17,4 @@ export default function parseCell(cell) {
     default:
       throw new Error('Invalid argument type');
   }
-}
+};
