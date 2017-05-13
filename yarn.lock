@@ -1605,6 +1605,10 @@ evp_bytestokey@^1.0.0:
   dependencies:
     create-hash "^1.1.1"
 
+excel-column-name@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/excel-column-name/-/excel-column-name-1.0.0.tgz#49a8fa764a48cb8dce8644bbdd2a0f19821a1e8b"
+
 exit-hook@^1.0.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/exit-hook/-/exit-hook-1.1.1.tgz#f05ca233b48c05d54fff07765df8507e95c02ff8"
