@@ -1,6 +1,6 @@
 {
   "name": "excel-cell-parser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert Excel cell name string to object of format { column: 'number', row: 'number' } and back",
   "keywords": [
     "excel",
