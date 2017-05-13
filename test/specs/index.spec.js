@@ -11,4 +11,10 @@ describe('parseCell', () => {
   it('should convert object to string', () => {
     expect(parseCell({ column: 1, row: 1 })).to.deep.equal('A1');
   });
+
+  it('should throw an error if param is not valid', () => {
+    expect(() => parseCell()).to.throw(Error);
+    expect(() => parseCell(true)).to.throw(Error);
+    expect(() => parseCell(0)).to.throw(Error);
+  });
 });
